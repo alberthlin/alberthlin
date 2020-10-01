@@ -48,6 +48,10 @@ a::before {
 	background-color:rgb(25,69,83);
 }
 
+.navlink > a:hover:before {
+	background-color: rgb(114,188,212);
+}
+
 a:hover {
 	color: rgb(114, 188, 212);	
 }
@@ -73,6 +77,13 @@ nav > ul {
 	grid-column:1/4;
 	font-family:'coffeeteademo-Regular', Helvetica, sans-serif;
 	font-size:5em;	
+}
+
+.animated-bird {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
 }
 
 @media(min-width:600px) {
