@@ -80,11 +80,12 @@ nav > ul {
 	font-size:5em;	
 }
 
-.animated-bird {
+.animated_bird {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	width:25%;
+	z-index:5;
 }
 
 .info {
@@ -92,6 +93,11 @@ nav > ul {
 	margin-left:auto;
 	margin-right:auto;
 	width:40%;
+	z-index:5;
+}
+
+form {
+	z-index:2;
 }
 
 @media(min-width:600px) {
@@ -109,6 +115,17 @@ nav > ul {
 	}
 	.navlink {
 		padding: 30px  0em;
+	}
+	.bg_box {
+		z-index:-5;
+		background-color:#f5f5f5;
+		border-radius:15px;
+		margin:auto;
+		position:fixed;
+		height:90%;
+		width:50%;
+		left:25%;
+		top:33%;
 	}
 }
 
