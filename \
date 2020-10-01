@@ -21,25 +21,24 @@
 			Homemade animal cartoons to help you ease your slow decay. If you'd like to voice, animate, or make music for A Bird Turd, we would love your help. Just fill out the form below and we'll get in touch with you. :-)
 		</p>
 	</div>
-	<div class="contact_form">
-		<form
-			action="https://formspree.io/f/xqkgagvp"
-			method="POST"
-		>
-			<label>
-				Your Name:
-				<input type="text" name="name" class="form-name-input">
-			</label>
-			<label>
-				Your Email:
-				<input type="email" name="_replyto" class="form-email-input">
-			</label>
-			<label>
-				Message:
-				<textarea name="message" class="form-message-input"></textarea>
-			</label>
-			<input type="submit" value="Send">
-		</form>	
-	</div>
+
+	<form
+		action="https://formspree.io/f/xqkgagvp"
+		method="POST"
+	>
+		<label>
+			Your Name:
+			<input type="text" name="name" class="form-name-input" placeholder="Name">
+		</label>
+		<label>
+			Your Email:
+			<input type="email" name="_replyto" class="form-email-input" placeholder="Email">
+		</label>
+		<label>
+			Message:
+			<textarea name="message" class="form-message-input" placeholder="Message"></textarea>
+		</label>
+		<input type="submit" value="Send">
+	</form>	
 </body>
 </html>
